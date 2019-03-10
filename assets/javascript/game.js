@@ -1,6 +1,6 @@
-// states guess what letter I'm thinking
-
 //set variables
+var 
+// set up consol log states guess what letter I'm thinking
 
 //set up random guess by computer
 
@@ -16,3 +16,5 @@
 //set up you loose alert console.log
 
 //set up counter
+
+//set up place that logs players guesses
