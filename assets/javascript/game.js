@@ -5,6 +5,10 @@ var computerChoices = ["q", "w", "e", "r","t","i","o","p","a","s","d","f","g","h
 //function set up for what key the player presses
 document.onkeyup = function(event) {
     var userGuess = event.key;
+    var computerGuess = computerChoices[
+        Math.floor(Math.random() *
+        computerChoices.length)
+    ];
 }
 // set up consol log states guess what letter I'm thinking
 
