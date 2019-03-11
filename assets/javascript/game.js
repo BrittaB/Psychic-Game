@@ -1,5 +1,11 @@
 //set variables
-var 
+//computer guesses variable
+var computerChoices = ["q", "w", "e", "r","t","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m"];
+
+//function set up for what key the player presses
+document.onkeyup = function(event) {
+    var userGuess = event.key;
+}
 // set up consol log states guess what letter I'm thinking
 
 //set up random guess by computer
